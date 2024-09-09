@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    height: 150vh;
+    height: 250vh;
     background-color: aliceblue;
 }
 
@@ -91,6 +91,7 @@ nav.open .nav{
    align-items: center;
    background-color: white;
    height: 350px;
+   text-align: justify;
 }
 
 .my-info .informs h1{
@@ -111,6 +112,18 @@ img{
 
 .my-info .informs .blue{
     color: rgb(12, 106, 214);
+}
+
+.my-info .informs .social-medias{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 10px;
+    text-indent: 0.5em;
+}
+
+.my-info .informs .social-medias i{
+    color: #000;
 }
 
 .skills{
@@ -138,7 +151,7 @@ img{
     flex-direction: column;
     font-size: 15px;
     margin: 70px;
-    background-color: white;
+    background-color: #fff;
     padding: 15px;
     border-radius: 15px;
     cursor: pointer;
@@ -166,4 +179,29 @@ img{
 .skills .skills-items p{
     text-indent: 2em;
     text-align: justify;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#projects h2{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+#projects .projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 50px;
+    margin-left: 150px;
+    transition: all 0.3s ease;
 }
