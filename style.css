@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    height: 250vh;
+    height: auto;
     background-color: aliceblue;
 }
 
@@ -97,6 +97,7 @@ nav.open .nav{
 
 .my-info .informs h1{
     font-size: 50px;
+    padding-bottom: 30px;
 }
 
 img{
@@ -136,7 +137,8 @@ img{
     border-top: 1px solid;
     width: 90%;
     margin: 20px auto;
-    margin-top: 50px;
+    margin-top: 80px;
+    padding: 20px;
 }
 
 #title-skills{
@@ -153,7 +155,7 @@ img{
     font-size: 15px;
     margin: 70px;
     background-color: #fff;
-    padding: 15px;
+    padding: 23px;
     border-radius: 15px;
     cursor: pointer;
     border-style: solid;
@@ -167,6 +169,7 @@ img{
 
 .skills .skills-items h4{
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .skills .skills-items hr{
@@ -195,6 +198,7 @@ img{
 #projects h2{
     font-size: 50px;
     padding-left: 30px;
+    text-decoration: underline;
 }
 
 #projects .projects-list{
@@ -202,7 +206,8 @@ img{
     flex-direction: column;
     justify-content: space-between;
     text-align: justify;
-    padding: 65px;  
+    padding: 65px;
+    margin: 50px;
     transition: all 0.3s ease;
 }
 
@@ -215,4 +220,34 @@ img{
     align-items: center;
     padding-top: 50px;
     padding-left: 50px;
+}
+
+#projects .projects-list .website-portfolio h4, .website-surrealism h4{
+    text-decoration: underline;
+}
+
+#footer-section{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0 30px 15px 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#footer-section .footer-links{
+    display: flex;
+}
+
+#footer-section .footer-links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#footer-section .footer-links ul li{
+
 }
