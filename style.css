@@ -28,6 +28,15 @@ nav{
     justify-content: space-between;
 }
 
+nav.open .nav{
+    display: none;
+}
+
+nav.open .title{
+    text-align: center;
+    margin-left: 500px;
+}
+
 .title{
     margin-left: 30px;
 }
