@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 150vh;
+    background-color: aliceblue;
+}
+
+nav{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 15px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 140px;
+}
+
+.nav ul li{
+    margin-right: 50px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.nav ul li:hover a{
+    color: rgb(255, 123, 0);
+}
+
+.nav ul li a:last-child{
+    margin-right: 10px;
+}
+
+#MenuButton{
+    margin: 5px 20px -5px 0; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 30px;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#MenuButton i{
+    transition: color 0.2s ease;
+}
+
+#MenuButton i:hover{
+    color: rgb(255, 123, 0);
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-int{
+   display: flex;
+   padding: 0 50px;
+   align-items: center;
+   margin-top: 30px;
+   background-color: white;
+   height: 300px;
+}
+
+.my-int .informs h1{
+    font-size: 50px;
+}
+
+img{
+    height: 125px;
+    padding: 0 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc h2{
+    margin: 100px 0 20px 0;
+}
+
+.desc p{
+    background-color: #272727;
+    padding: 15px 15px;
+    border-radius: 40px;
+    color: #bbbbbb;
+}
