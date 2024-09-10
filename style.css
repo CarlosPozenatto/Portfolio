@@ -19,7 +19,7 @@ body{
 
 nav{
     background-color: aliceblue;
-    height: 100px;
+    height: 85px;
     margin-top: 15px;
     display: flex;
     top: 0;
@@ -91,7 +91,7 @@ nav.open .nav{
    padding: 0 50px;
    align-items: center;
    background-color: white;
-   height: 350px;
+   height: 400px;
    text-align: justify;
 }
 
@@ -226,28 +226,25 @@ img{
     text-decoration: underline;
 }
 
-#footer-section{
+#footer-section .footer{
+    display: flex;
+    background-color: white;
+}
+
+#footer-section .footer h3{
     display: flex;
     align-items: center;
-    background-color: white;
+    justify-content: center;
+}
+
+#footer-section .footer .footer-links{
+    display: flex;
     margin: 0 30px 15px 30px;
     padding: 20px;
     border-radius: 10px;
 }
 
-#footer-section .footer-links{
-    display: flex;
-}
-
-#footer-section .footer-links ul{
-    display: flex;
-    flex-direction: column;
+#footer-section .footer .footer-links .links-1 ul{
     align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin-right: 30px;
-}
-
-#footer-section .footer-links ul li{
-
+    justify-content: space-between;
 }
